@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Urban Steps - Shoe Store</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #eaeaea;
+      color: #222;
+    }
+
+    header {
+      background-color: #000;
+      color: #fff;
+      padding: 30px 0;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: #fff;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #111;
+      margin-bottom: 30px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .product {
+      background-color: #fff;
+      width: 250px;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .product:hover {
+      transform: scale(1.05);
+    }
+
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product h3 {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    .product p {
+      color: #666;
+    }
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Urban Steps</h1>
+    <p>Your go-to store for stylish and functional shoes</p>
+  </header>
+
+  <nav>
+    <a href="#casual">Casual</a>
+    <a href="#formal">Formal</a>
+    <a href="#sneakers">Sneakers</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="casual">
+    <h2>Casual Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="casual3.jpg" alt="Slip-On Canvas">
+        <h3>Slip-On Canvas</h3>
+        <p>₱1,100</p>
+      </div>
+      <div class="product">
+        <img src="casual4.jpg" alt="Street Style Loafers">
+        <h3>Street Style Loafers</h3>
+        <p>₱1,250</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="formal">
+    <h2>Formal Collection</h2>
+    <div class="products">
+      <div class="product">
+        <img src="formal3.jpg" alt="Classic Leather">
+        <h3>Classic Leather</h3>
+        <p>₱2,700</p>
+      </div>
+      <div class="product">
+        <img src="formal4.jpg" alt="Elegant Brogues">
+        <h3>Elegant Brogues</h3>
+        <p>₱2,950</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sneakers">
+    <h2>Running Sneakers</h2>
+    <div class="products">
+      <div class="product">
+        <img src="sneaker1.jpg" alt="UrbanRun 5000">
+        <h3>UrbanRun 5000</h3>
+        <p>₱2,400</p>
+      </div>
+      <div class="product">
+        <img src="sneaker2.jpg" alt="FlashTrack Elite">
+        <h3>FlashTrack Elite</h3>
+        <p>₱2,600</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align: center;">Email: <a href="mailto:urbansteps.store@gmail.com">urbansteps.store@gmail.com</a></p>
+    <p style="text-align: center;">Phone: <a href="tel:+639876543210">0987-654-3210</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Urban Steps. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
